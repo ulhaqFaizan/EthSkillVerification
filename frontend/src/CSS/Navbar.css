@@ -1,0 +1,11 @@
+.nav-link{
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    transform: scale(1.15);
+}
+
+#search{
+    box-shadow: 2px 2px 5px lightgrey;
+}

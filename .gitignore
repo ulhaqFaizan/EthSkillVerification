@@ -1,0 +1,116 @@
+# Node modules
+node_modules/
+orbitdb/
+backend/orbitdb/
+backend/uploads/
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# React build files
+frontend/build/
+
+# Hardhat files
+artifacts/
+cache/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# NPM shrinkwrap files
+npm-shrinkwrap.json
+yarn.lock
+
+# Package lock files
+package-lock.json
+
+# Coverage directory used by tools like istanbul
+coverage/
+coverage-final.json
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# Optional REPL history
+.node_repl_history
+
+# MacOS Directory file
+.DS_Store
+
+# Windows image file caches
+Thumbs.db
+
+# Other
+.sass-cache/
+*.pid
+
+# dotenv environment variables file
+.env
+
+# Hardhat-specific files
+hardhat.config.ts
+hardhat.config.js
+
+# Miscellaneous
+*.sublime-project
+*.sublime-workspace
+.idea/
+*.iml
+
+# Local environment settings
+.env.local
+.env.*.local
+
+# React Native
+*.expo
+
+# Frontend specific
+frontend/.next/
+frontend/.out/
+frontend/coverage/
+frontend/.cache/
+frontend/dist/
+frontend/*.pem
+frontend/*.key
+frontend/*.crt
+
+# Solidity generated files
+smart-contracts/build/
+smart-contracts/cache/
+smart-contracts/artifacts/
+
+# Truffle specific
+truffle.js
+truffle-config.js
+secret.json
+truffle/build/
+
+# Yarn Integrity file
+.yarn-integrity
+
+# pm2
+pids/
+*.pid
+*.pid.lock

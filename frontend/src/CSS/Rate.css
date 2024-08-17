@@ -1,0 +1,102 @@
+/* src/SkillRating.css */
+
+.skill-rating-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .profile-header-rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-picture-rating {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+  
+  .profile-info-rating h1 {
+    margin: 0;
+  }
+  
+  .profile-info p {
+    margin: 5px 0;
+  }
+  
+  .profile-status {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .tabs {
+    display: flex;
+    margin: 20px 0;
+  }
+  
+  .tab {
+    background: #f4f4f4;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .tab.active {
+    background: #007bff;
+    color: white;
+  }
+  
+  .skills-table table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .skills-table th, .skills-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .skills-table th {
+    background: #f4f4f4;
+  }
+  
+  .skills-table td {
+    background: #fff;
+  }
+
+  /* src/Counter.css */
+
+.counter-container {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .counter-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+    margin: 0 5px;
+  }
+  
+  .counter-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .counter-display {
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
+  

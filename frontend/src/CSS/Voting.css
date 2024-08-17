@@ -1,0 +1,37 @@
+.vendor-list {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-vendor:hover {
+    background-color: #4752c4;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .proposal{
+    background-color: #6f42c1;
+    border: #6f42c1;
+    color: white;
+    transition: 0.2s;
+  }
+
+  .proposal:hover{
+    background-color: #7d56c7;
+    border: #7d56c7;
+  }
+
+.box{
+  width: fit-content;
+}

@@ -1,0 +1,20 @@
+.section-1{
+    height: 300px;
+}
+
+.info-1{
+    width: 50%;
+}
+
+.info-2{
+    width: 50%;
+}
+
+p{
+    font-size: 20px;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+}
